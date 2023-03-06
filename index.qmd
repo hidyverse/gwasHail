@@ -1,0 +1,83 @@
+---
+title: "Data Science Tapas"
+subtitle: "Genome Wide Association Studies with Hail Scalable Software"
+author: "Heidi Steiner"
+date: "March 16, 2023"
+footer: "https://github.com/ua-data7/DS-Tapas/Workshops/Spring2023/2023-Mar-16"
+format:
+  revealjs:
+    theme: [default, assets/custom.scss]
+    logo: assets/dsi.png
+    auto-play-media: true
+---
+
+## On Today's Menu
+
+-   Installations
+-   Discuss
+    -   Hail + scalability 🏗️
+
+    -   Genome wide association studies (GWAS) 🧬
+-   Hands-on
+    -   perform GWAS with hail 🌨️
+
+## Prepare Installations
+
+-   Install [python](https://www.python.org/)?
+-   Install [pip](https://pip.pypa.io/en/stable/installation/)??
+
+<!-- -->
+
+    python get-pip.py
+
+-   Install [jupyter](https://jupyter.org/install)
+
+<!-- -->
+
+    python -m pip install notebook
+
+-   Install hail, argparse, and numpy
+
+<!-- -->
+
+    python -m pip install hail argparse numpy
+
+::: notes
+double check that you need argparse and numpy here
+:::
+
+## What is Hail?
+
+![](assets/images/image-2094204328.png){fig-align="center" width="274"}
+
+-   Open source data science library
+
+-   Scale-able genomic software
+
+-   Unified genomic data representation
+
+-   Community 🤗
+
+::: notes
+slice, dice, query, and model data of any kind
+
+easy to use with small and biobank genomic datasets
+
+matrix table is the same for all types of genomic data
+
+forum + chatroom
+:::
+
+## The scalability problem
+
+## Genome wide association studies
+
+## Hands-on
+
+## Mastering hail takes practice
+
+## Buen Provecho!
+
+-   [Provide Tapas Feedback](https://uarizona.co1.qualtrics.com/jfe/form/SV_dmxCZsorVVr5lA2)
+-   [Request a consulatation](https://uarizona.co1.qualtrics.com/jfe/form/SV_7V8weDrKwCMbXCK)
+-   Find more [hail resources online](https://hail.is/docs/0.2/index.html)!
