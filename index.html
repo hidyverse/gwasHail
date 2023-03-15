@@ -346,24 +346,20 @@
 </ul></li>
 </ul>
 </section>
-<section id="prepare-installations" class="slide level2">
-<h2>Prepare Installations</h2>
+<section id="prepare-workspace" class="slide level2">
+<h2>Prepare Workspace</h2>
 <ul>
-<li>Install <a href="https://www.python.org/">python</a>?</li>
-<li>Install <a href="https://pip.pypa.io/en/stable/installation/">pip</a>??</li>
+<li><p>Load CyVerse JupyterLab DataScience App</p></li>
+<li><p>Install Java</p></li>
 </ul>
 <!-- -->
-<pre><code>python get-pip.py</code></pre>
+<pre><code>sudo apt update
+sudo apt install openjdk-8-jdk</code></pre>
 <ul>
-<li>Install <a href="https://jupyter.org/install">jupyter</a></li>
+<li>Install hail</li>
 </ul>
 <!-- -->
-<pre><code>python -m pip install notebook</code></pre>
-<ul>
-<li>Install hail, argparse, and numpy</li>
-</ul>
-<!-- -->
-<pre><code>python -m pip install hail argparse numpy</code></pre>
+<pre><code>pip install hail</code></pre>
 <aside class="notes">
 <p>double check that you need argparse and numpy here</p>
 <style type="text/css">
@@ -406,22 +402,33 @@
 </section>
 <section id="the-scalability-problem" class="slide level2">
 <h2>The scalability problem</h2>
+<p>It’s not feasible to process tens or hundreds of thousands of whole genomes on a single computer</p>
+<p>Users can worry about the contents of their pipelines, rather than how to parallelize them</p>
 </section>
 <section id="genome-wide-association-studies" class="slide level2">
 <h2>Genome wide association studies</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Statistical method to survey large amounts of genetic variants for a relationship with a particular disease (or another trait)</p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/images/gwas.png"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="hands-on" class="slide level2">
-<h2>Hands-on</h2>
-</section>
-<section id="mastering-hail-takes-practice" class="slide level2">
-<h2>Mastering hail takes practice</h2>
+<section id="lets-try-it" class="slide level2">
+<h2>Let’s try it ▶️</h2>
+<p>Back to CyVerse</p>
 </section>
 <section id="buen-provecho" class="slide level2">
 <h2>Buen Provecho!</h2>
 <ul>
 <li><a href="https://uarizona.co1.qualtrics.com/jfe/form/SV_dmxCZsorVVr5lA2">Provide Tapas Feedback</a></li>
 <li><a href="https://uarizona.co1.qualtrics.com/jfe/form/SV_7V8weDrKwCMbXCK">Request a consulatation</a></li>
-<li>Find more <a href="https://hail.is/docs/0.2/index.html">hail resources online</a>!</li>
+<li>Mastering hail takes practices, find more <a href="https://hail.is/docs/0.2/index.html">hail resources online</a>!</li>
 </ul>
 
 <img src="assets/dsi.png" class="slide-logo r-stretch"><div class="footer footer-default">
