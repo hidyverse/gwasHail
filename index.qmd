@@ -14,11 +14,17 @@ format:
 ## On Today's Menu
 
 -   Installations
+
+    ![](assets/images/PoweredbyCyverse_Logo.png){width="476"}
+
 -   Discuss
+
     -   Hail + scalability 🏗️
 
     -   Genome wide association studies (GWAS) 🧬
+
 -   Hands-on
+
     -   perform GWAS with hail 🌨️
 
 ## Prepare Workspace
