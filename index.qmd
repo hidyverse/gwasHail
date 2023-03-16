@@ -1,6 +1,6 @@
 ---
 title: "Data Science Tapas"
-subtitle: "Genome Wide Association Studies with Hail Scalable Software"
+subtitle: "Genome-wide association studies with Hail scalable software"
 author: "Heidi Steiner"
 date: "March 16, 2023"
 footer: "https://github.com/ua-data7/DS-Tapas/Workshops/Spring2023/2023-Mar-16"
@@ -23,7 +23,9 @@ format:
 
 ## Prepare Workspace
 
--   Load CyVerse JupyterLab DataScience App
+-   Load CyVerse
+
+-   Launch JupyterLab DataScience App
 
 -   Install Java
 
@@ -38,13 +40,9 @@ format:
 
     pip install hail
 
-::: notes
-double check that you need argparse and numpy here
-:::
-
 ## What is Hail?
 
-![](assets/images/image-2094204328.png){fig-align="center" width="274"}
+![](assets/images/image-2094204328.png){fig-align="center" width="200"}
 
 -   Open source data science library
 
@@ -66,25 +64,31 @@ forum + chatroom
 
 ## The scalability problem
 
-It's not feasible to process tens or hundreds of thousands of whole genomes on a single computer
+-   Problem:
 
-Users can worry about the contents of their pipelines, rather than how to parallelize them
+    *Not feasible to process tens or hundreds of thousands of whole genomes on a single computer*
+
+-   Solution:
+
+    *Worry about the contents of a pipeline, rather than how to parallelize it*
 
 ## Genome wide association studies
 
 ::: columns
-::: {.column width="50%"}
-Statistical method to survey large amounts of genetic variants for a relationship with a particular disease (or another trait)
+::: {.column width="30%"}
+\
+
+Statistical method to survey large amounts of ***genetic variants for a relationship with a disease*** (or a particular trait)
 :::
 
-::: {.column width="50%"}
+::: {.column width="65%"}
 ![](assets/images/gwas.png){fig-align="center"}
 :::
 :::
 
-## Let's try it ▶️
+## Let's try it ▶️ {.demo}
 
-Back to CyVerse
+Back to CyVerse...
 
 ## Buen Provecho!
 

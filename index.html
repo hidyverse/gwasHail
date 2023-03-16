@@ -326,7 +326,7 @@
 
 <section id="title-slide" class="center">
   <h1 class="title">Data Science Tapas</h1>
-  <p class="subtitle">Genome Wide Association Studies with Hail Scalable Software</p>
+  <p class="subtitle">Genome-wide association studies with Hail scalable software</p>
   <p class="author">Heidi Steiner</p>
   <p class="date">March 16, 2023</p>
 </section>
@@ -349,7 +349,8 @@
 <section id="prepare-workspace" class="slide level2">
 <h2>Prepare Workspace</h2>
 <ul>
-<li><p>Load CyVerse JupyterLab DataScience App</p></li>
+<li><p>Load CyVerse</p></li>
+<li><p>Launch JupyterLab DataScience App</p></li>
 <li><p>Install Java</p></li>
 </ul>
 <!-- -->
@@ -360,24 +361,11 @@ sudo apt install openjdk-8-jdk</code></pre>
 </ul>
 <!-- -->
 <pre><code>pip install hail</code></pre>
-<aside class="notes">
-<p>double check that you need argparse and numpy here</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 <section id="what-is-hail" class="slide level2">
 <h2>What is Hail?</h2>
 
-<img data-src="assets/images/image-2094204328.png" width="274" class="r-stretch quarto-figure-center"><ul>
+<img data-src="assets/images/image-2094204328.png" width="200" class="r-stretch quarto-figure-center"><ul>
 <li><p>Open source data science library</p></li>
 <li><p>Scale-able genomic software</p></li>
 <li><p>Unified genomic data representation</p></li>
@@ -402,15 +390,21 @@ sudo apt install openjdk-8-jdk</code></pre>
 </section>
 <section id="the-scalability-problem" class="slide level2">
 <h2>The scalability problem</h2>
-<p>It’s not feasible to process tens or hundreds of thousands of whole genomes on a single computer</p>
-<p>Users can worry about the contents of their pipelines, rather than how to parallelize them</p>
+<ul>
+<li><p>Problem:</p>
+<p><em>Not feasible to process tens or hundreds of thousands of whole genomes on a single computer</em></p></li>
+<li><p>Solution:</p>
+<p><em>Worry about the contents of a pipeline, rather than how to parallelize it</em></p></li>
+</ul>
 </section>
 <section id="genome-wide-association-studies" class="slide level2">
 <h2>Genome wide association studies</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<p>Statistical method to survey large amounts of genetic variants for a relationship with a particular disease (or another trait)</p>
-</div><div class="column" style="width:50%;">
+<div class="column" style="width:30%;">
+<p><br>
+</p>
+<p>Statistical method to survey large amounts of <strong><em>genetic variants for a relationship with a disease</em></strong> (or a particular trait)</p>
+</div><div class="column" style="width:65%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="assets/images/gwas.png"></p>
@@ -419,9 +413,9 @@ sudo apt install openjdk-8-jdk</code></pre>
 </div>
 </div>
 </section>
-<section id="lets-try-it" class="slide level2">
+<section id="lets-try-it" class="slide level2 demo">
 <h2>Let’s try it ▶️</h2>
-<p>Back to CyVerse</p>
+<p>Back to CyVerse…</p>
 </section>
 <section id="buen-provecho" class="slide level2">
 <h2>Buen Provecho!</h2>
