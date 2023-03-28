@@ -21,7 +21,7 @@ format:
 
     -   Hail + scalability 🏗️
 
-    -   Genome wide association studies (GWAS) 🧬
+    -   Genome-wide association studies (GWAS) 🧬
 
 -   Hands-on
 
