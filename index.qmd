@@ -3,7 +3,7 @@ title: "Data Science Tapas"
 subtitle: "Genome-wide association studies with Hail scalable software"
 author: "Heidi Steiner"
 date: "March 16, 2023"
-footer: "https://github.com/ua-data7/DS-Tapas/Workshops/Spring2023/2023-Mar-16"
+footer: "[Data Science Tapas](https://github.com/ua-data7/DS-Tapas/tree/main/Workshops/Spring2023/2023-Mar-16)"
 format:
   revealjs:
     theme: [default, assets/custom.scss]
@@ -37,14 +37,18 @@ format:
 
 <!-- -->
 
-    sudo apt update
-    sudo apt install openjdk-8-jdk
+```         
+sudo apt update
+sudo apt install openjdk-8-jdk
+```
 
 -   Install hail
 
 <!-- -->
 
-    pip install hail
+```         
+pip install hail
+```
 
 ## What is Hail?
 
